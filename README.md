@@ -62,7 +62,7 @@ See [Prereq 1: Software Setup](https://github.com/ShawnLiNU/EECE5550-Mobile-Robo
 
 | Hardware | Role |
 |----------|------|
-| [TurtleBot 4](https://www.trossenrobotics.com/turtlebot-4) (Clearpath / iRobot) | Mobile base — provides LiDAR, RGB-D camera, wheel odometry, IMU, and Create 3 drive system |
+| [TurtleBot 4](https://clearpathrobotics.com/turtlebot-4/) (Clearpath / iRobot) | Mobile base — provides LiDAR, RGB-D camera, wheel odometry, IMU, and Create 3 drive system |
 | [Raspberry Pi 5](https://www.raspberrypi.com/products/raspberry-pi-5/) (8 GB) | Intelligence node — runs SLAM, Nav2, and object detection; mounted on TurtleBot 4 top shelf |
 | [Raspberry Pi AI HAT+](https://www.raspberrypi.com/products/ai-hat/) (Hailo-8L, 13 TOPS) | Neural processing unit — offloads YOLO inference from CPU; connected via PCIe Gen 3 × 1 |
 | USB-C PD power banks (× 2) | Extended battery — one supplements the Create 3 battery, one powers the Pi 5 independently |
